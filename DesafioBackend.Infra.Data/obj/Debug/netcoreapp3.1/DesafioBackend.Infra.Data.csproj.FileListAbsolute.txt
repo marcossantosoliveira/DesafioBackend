@@ -1,0 +1,15 @@
+C:\sources\DesafioBackend\DesafioBackend.Infra.Data\bin\Debug\netcoreapp3.1\DesafioBackend.Infra.Data.deps.json
+C:\sources\DesafioBackend\DesafioBackend.Infra.Data\bin\Debug\netcoreapp3.1\DesafioBackend.Infra.Data.runtimeconfig.json
+C:\sources\DesafioBackend\DesafioBackend.Infra.Data\bin\Debug\netcoreapp3.1\DesafioBackend.Infra.Data.runtimeconfig.dev.json
+C:\sources\DesafioBackend\DesafioBackend.Infra.Data\bin\Debug\netcoreapp3.1\DesafioBackend.Infra.Data.dll
+C:\sources\DesafioBackend\DesafioBackend.Infra.Data\bin\Debug\netcoreapp3.1\DesafioBackend.Infra.Data.pdb
+C:\sources\DesafioBackend\DesafioBackend.Infra.Data\bin\Debug\netcoreapp3.1\DesafioBackend.Domain.dll
+C:\sources\DesafioBackend\DesafioBackend.Infra.Data\bin\Debug\netcoreapp3.1\DesafioBackend.Domain.pdb
+C:\sources\DesafioBackend\DesafioBackend.Infra.Data\obj\Debug\netcoreapp3.1\DesafioBackend.Infra.Data.csprojAssemblyReference.cache
+C:\sources\DesafioBackend\DesafioBackend.Infra.Data\obj\Debug\netcoreapp3.1\DesafioBackend.Infra.Data.csproj.CoreCompileInputs.cache
+C:\sources\DesafioBackend\DesafioBackend.Infra.Data\obj\Debug\netcoreapp3.1\DesafioBackend.Infra.Data.AssemblyInfoInputs.cache
+C:\sources\DesafioBackend\DesafioBackend.Infra.Data\obj\Debug\netcoreapp3.1\DesafioBackend.Infra.Data.AssemblyInfo.cs
+C:\sources\DesafioBackend\DesafioBackend.Infra.Data\obj\Debug\netcoreapp3.1\DesafioBackend.Infra.Data.csproj.CopyComplete
+C:\sources\DesafioBackend\DesafioBackend.Infra.Data\obj\Debug\netcoreapp3.1\DesafioBackend.Infra.Data.dll
+C:\sources\DesafioBackend\DesafioBackend.Infra.Data\obj\Debug\netcoreapp3.1\DesafioBackend.Infra.Data.pdb
+C:\sources\DesafioBackend\DesafioBackend.Infra.Data\obj\Debug\netcoreapp3.1\DesafioBackend.Infra.Data.genruntimeconfig.cache

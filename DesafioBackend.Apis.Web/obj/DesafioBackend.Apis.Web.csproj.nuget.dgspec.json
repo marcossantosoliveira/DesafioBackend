@@ -1,0 +1,418 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\sources\\DesafioBackend\\DesafioBackend.Apis.Web\\DesafioBackend.Apis.Web.csproj": {}
+  },
+  "projects": {
+    "C:\\sources\\DesafioBackend\\DesafioBackend.Apis.Web\\DesafioBackend.Apis.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\sources\\DesafioBackend\\DesafioBackend.Apis.Web\\DesafioBackend.Apis.Web.csproj",
+        "projectName": "DesafioBackend.Apis.Web",
+        "projectPath": "C:\\sources\\DesafioBackend\\DesafioBackend.Apis.Web\\DesafioBackend.Apis.Web.csproj",
+        "packagesPath": "C:\\Users\\BSI91560\\.nuget\\packages\\",
+        "outputPath": "C:\\sources\\DesafioBackend\\DesafioBackend.Apis.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\BSI91560\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://devops.bs2.com/BS2Tech/_packaging/PessoaJuridica/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\sources\\DesafioBackend\\DesafioBackend.Aplicacao\\DesafioBackend.application.csproj": {
+                "projectPath": "C:\\sources\\DesafioBackend\\DesafioBackend.Aplicacao\\DesafioBackend.application.csproj"
+              },
+              "C:\\sources\\DesafioBackend\\DesafioBackend.Infra.Data\\DesafioBackend.Infra.Data.csproj": {
+                "projectPath": "C:\\sources\\DesafioBackend\\DesafioBackend.Infra.Data\\DesafioBackend.Infra.Data.csproj"
+              },
+              "C:\\sources\\DesafioBackend\\DesafioBackend.Infra.IOC\\DesafioBackend.Integrations.csproj": {
+                "projectPath": "C:\\sources\\DesafioBackend\\DesafioBackend.Infra.IOC\\DesafioBackend.Integrations.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\sources\\DesafioBackend\\DesafioBackend.Aplicacao\\DesafioBackend.application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\sources\\DesafioBackend\\DesafioBackend.Aplicacao\\DesafioBackend.application.csproj",
+        "projectName": "DesafioBackend.application",
+        "projectPath": "C:\\sources\\DesafioBackend\\DesafioBackend.Aplicacao\\DesafioBackend.application.csproj",
+        "packagesPath": "C:\\Users\\BSI91560\\.nuget\\packages\\",
+        "outputPath": "C:\\sources\\DesafioBackend\\DesafioBackend.Aplicacao\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\BSI91560\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://devops.bs2.com/BS2Tech/_packaging/PessoaJuridica/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\sources\\DesafioBackend\\DesafioBackend.Domain\\DesafioBackend.Domain.csproj": {
+                "projectPath": "C:\\sources\\DesafioBackend\\DesafioBackend.Domain\\DesafioBackend.Domain.csproj"
+              },
+              "C:\\sources\\DesafioBackend\\DesafioBackend.Infra.IOC\\DesafioBackend.Integrations.csproj": {
+                "projectPath": "C:\\sources\\DesafioBackend\\DesafioBackend.Infra.IOC\\DesafioBackend.Integrations.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\sources\\DesafioBackend\\DesafioBackend.Domain\\DesafioBackend.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\sources\\DesafioBackend\\DesafioBackend.Domain\\DesafioBackend.Domain.csproj",
+        "projectName": "DesafioBackend.Domain",
+        "projectPath": "C:\\sources\\DesafioBackend\\DesafioBackend.Domain\\DesafioBackend.Domain.csproj",
+        "packagesPath": "C:\\Users\\BSI91560\\.nuget\\packages\\",
+        "outputPath": "C:\\sources\\DesafioBackend\\DesafioBackend.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\BSI91560\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://devops.bs2.com/BS2Tech/_packaging/PessoaJuridica/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\sources\\DesafioBackend\\DesafioBackend.Infra.Data\\DesafioBackend.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\sources\\DesafioBackend\\DesafioBackend.Infra.Data\\DesafioBackend.Infra.Data.csproj",
+        "projectName": "DesafioBackend.Infra.Data",
+        "projectPath": "C:\\sources\\DesafioBackend\\DesafioBackend.Infra.Data\\DesafioBackend.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\BSI91560\\.nuget\\packages\\",
+        "outputPath": "C:\\sources\\DesafioBackend\\DesafioBackend.Infra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\BSI91560\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://devops.bs2.com/BS2Tech/_packaging/PessoaJuridica/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\sources\\DesafioBackend\\DesafioBackend.Domain\\DesafioBackend.Domain.csproj": {
+                "projectPath": "C:\\sources\\DesafioBackend\\DesafioBackend.Domain\\DesafioBackend.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\sources\\DesafioBackend\\DesafioBackend.Infra.IOC\\DesafioBackend.Integrations.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\sources\\DesafioBackend\\DesafioBackend.Infra.IOC\\DesafioBackend.Integrations.csproj",
+        "projectName": "DesafioBackend.Integrations",
+        "projectPath": "C:\\sources\\DesafioBackend\\DesafioBackend.Infra.IOC\\DesafioBackend.Integrations.csproj",
+        "packagesPath": "C:\\Users\\BSI91560\\.nuget\\packages\\",
+        "outputPath": "C:\\sources\\DesafioBackend\\DesafioBackend.Infra.IOC\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\BSI91560\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://devops.bs2.com/BS2Tech/_packaging/PessoaJuridica/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\sources\\DesafioBackend\\DesafioBackend.Domain\\DesafioBackend.Domain.csproj": {
+                "projectPath": "C:\\sources\\DesafioBackend\\DesafioBackend.Domain\\DesafioBackend.Domain.csproj"
+              },
+              "C:\\sources\\DesafioBackend\\DesafioBackend.Infra.Data\\DesafioBackend.Infra.Data.csproj": {
+                "projectPath": "C:\\sources\\DesafioBackend\\DesafioBackend.Infra.Data\\DesafioBackend.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
