@@ -22,7 +22,9 @@ namespace DesafioBackend.Infra.Data
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=DesafioBackendBD");
+                optionsBuilder.UseSqlServer("Server=tcp:desafiobackendsql.database.windows.net,1433;Initial Catalog=DesafioBackendBd;" +
+                    "                         Persist Security Info=False;User ID=desafioBackendsql;Password=abc@12345;" +
+                    "                         MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
             }
         }      
 
