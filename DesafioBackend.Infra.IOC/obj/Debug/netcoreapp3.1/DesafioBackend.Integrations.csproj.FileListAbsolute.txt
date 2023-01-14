@@ -2,3 +2,16 @@ C:\sources\DesafioBackend\DesafioBackend.Infra.IOC\obj\Debug\netcoreapp3.1\Desaf
 C:\sources\DesafioBackend\DesafioBackend.Infra.IOC\obj\Debug\netcoreapp3.1\DesafioBackend.Integrations.csproj.CoreCompileInputs.cache
 C:\sources\DesafioBackend\DesafioBackend.Infra.IOC\obj\Debug\netcoreapp3.1\DesafioBackend.Integrations.AssemblyInfoInputs.cache
 C:\sources\DesafioBackend\DesafioBackend.Infra.IOC\obj\Debug\netcoreapp3.1\DesafioBackend.Integrations.AssemblyInfo.cs
+C:\sources\DesafioBackend\DesafioBackend.Infra.IOC\bin\Debug\netcoreapp3.1\DesafioBackend.Integrations.deps.json
+C:\sources\DesafioBackend\DesafioBackend.Infra.IOC\bin\Debug\netcoreapp3.1\DesafioBackend.Integrations.runtimeconfig.json
+C:\sources\DesafioBackend\DesafioBackend.Infra.IOC\bin\Debug\netcoreapp3.1\DesafioBackend.Integrations.runtimeconfig.dev.json
+C:\sources\DesafioBackend\DesafioBackend.Infra.IOC\bin\Debug\netcoreapp3.1\DesafioBackend.Integrations.dll
+C:\sources\DesafioBackend\DesafioBackend.Infra.IOC\bin\Debug\netcoreapp3.1\DesafioBackend.Integrations.pdb
+C:\sources\DesafioBackend\DesafioBackend.Infra.IOC\bin\Debug\netcoreapp3.1\DesafioBackend.Domain.dll
+C:\sources\DesafioBackend\DesafioBackend.Infra.IOC\bin\Debug\netcoreapp3.1\DesafioBackend.Infra.Data.dll
+C:\sources\DesafioBackend\DesafioBackend.Infra.IOC\bin\Debug\netcoreapp3.1\DesafioBackend.Domain.pdb
+C:\sources\DesafioBackend\DesafioBackend.Infra.IOC\bin\Debug\netcoreapp3.1\DesafioBackend.Infra.Data.pdb
+C:\sources\DesafioBackend\DesafioBackend.Infra.IOC\obj\Debug\netcoreapp3.1\DesafioBackend.Integrations.csproj.CopyComplete
+C:\sources\DesafioBackend\DesafioBackend.Infra.IOC\obj\Debug\netcoreapp3.1\DesafioBackend.Integrations.dll
+C:\sources\DesafioBackend\DesafioBackend.Infra.IOC\obj\Debug\netcoreapp3.1\DesafioBackend.Integrations.pdb
+C:\sources\DesafioBackend\DesafioBackend.Infra.IOC\obj\Debug\netcoreapp3.1\DesafioBackend.Integrations.genruntimeconfig.cache

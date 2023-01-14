@@ -24,6 +24,13 @@ namespace DesafioBackend.application.Services
                 MultiplicadorBase = cliente.MultiplicadorBase              
             };
 
+            var clienteExistente = _ClienteRepository.ObterClientePorEmail(cli.Email);
+
+            if(clienteExistente != null)
+            {
+                return clienteExistente.Id;
+            }
+
             var clienteId = _ClienteRepository.CriarCliente(cli);
 
             return clienteId;

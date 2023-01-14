@@ -21,14 +21,11 @@ namespace DesafioBackend.Apis.Web.CotacaoMoeda
             _cotacaoMoedaService = cotacaoMoedaService;
         }
 
-
         [HttpGet("cliente/{clienteId}/cotacao")]
         public async Task<ActionResult<CotacaoMoedaDto>> ObterCotacaoMoedaAsync(        
         [FromRoute] Guid clienteId)
         {
             var cotacaoMoeda = _cotacaoMoedaService.ObterCotacaoMoeda(clienteId);
-
-
             return Ok(cotacaoMoeda);
         }
 
@@ -37,9 +34,7 @@ namespace DesafioBackend.Apis.Web.CotacaoMoeda
         [FromRoute] Guid clienteId,
         [FromBody] ValorCotadoDto valorCotado)
         {
-            var cotacaoMoedaCliente = _cotacaoMoedaService.ObterCotacaoMoeda(clienteId, valorCotado.ValorCotadoEmReais);
-
-            
+            var cotacaoMoedaCliente = _cotacaoMoedaService.ObterCotacaoMoeda(clienteId, valorCotado.ValorCotadoEmReais);            
 
             return Ok(cotacaoMoedaCliente);
         }

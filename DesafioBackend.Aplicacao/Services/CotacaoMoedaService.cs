@@ -41,8 +41,8 @@ namespace DesafioBackend.application.Services
 
             var valorCotacao = new CotacaoMoedaClienteDto
             {
-                ValorOriginal = cotacaoMoeda.Result.USDBRL.Bid,
-                ValorComTaxa = cotacaoMoeda.Result.USDBRL.Bid * cliente.MultiplicadorBase,
+                ValorOriginal = cotacaoMoeda.Result.BRLUSD.Bid,
+                ValorComTaxa = cotacaoMoeda.Result.BRLUSD.Bid * cliente.MultiplicadorBase,
                 ValorCotadoEmReais = valorCotadoEmReais,
                 Cliente = new ClienteServiceDto()
                 {

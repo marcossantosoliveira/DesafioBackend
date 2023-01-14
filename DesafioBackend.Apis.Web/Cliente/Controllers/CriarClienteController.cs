@@ -21,7 +21,6 @@ namespace DesafioBackend.Apis.Web.Cliente
             _clienteService = clienteService;
         }
 
-
         [HttpPost("cliente")]
         public async Task<ActionResult<Guid>> CriarClienteAsync(
         [FromBody] ClienteDto cliente
