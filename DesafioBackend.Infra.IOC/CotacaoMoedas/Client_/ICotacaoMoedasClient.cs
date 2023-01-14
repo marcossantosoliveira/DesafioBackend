@@ -7,8 +7,8 @@ namespace DesafioBackend.Integrations.CotacaoMoedas
 {
     public interface ICotacaoMoedasClient
     {
-        Task<CotacaoMoedaDto> ObterCotacaoMoedaUSD();
+        Task<CotacaoMoedaUSDBRLDto> ObterCotacaoMoedaUSD();
 
-        Task<CotacaoMoedaDto> ObterCotacaoMoedaBRL();
+        Task<CotacaoMoedaBRLUSDDto> ObterCotacaoMoedaBRL();
     }
 }

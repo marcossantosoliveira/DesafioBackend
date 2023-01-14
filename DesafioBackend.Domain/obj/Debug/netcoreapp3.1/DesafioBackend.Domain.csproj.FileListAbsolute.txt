@@ -3,10 +3,10 @@ C:\sources\DesafioBackend\DesafioBackend.Domain\bin\Debug\netcoreapp3.1\DesafioB
 C:\sources\DesafioBackend\DesafioBackend.Domain\bin\Debug\netcoreapp3.1\DesafioBackend.Domain.runtimeconfig.dev.json
 C:\sources\DesafioBackend\DesafioBackend.Domain\bin\Debug\netcoreapp3.1\DesafioBackend.Domain.dll
 C:\sources\DesafioBackend\DesafioBackend.Domain\bin\Debug\netcoreapp3.1\DesafioBackend.Domain.pdb
+C:\sources\DesafioBackend\DesafioBackend.Domain\obj\Debug\netcoreapp3.1\DesafioBackend.Domain.csprojAssemblyReference.cache
 C:\sources\DesafioBackend\DesafioBackend.Domain\obj\Debug\netcoreapp3.1\DesafioBackend.Domain.csproj.CoreCompileInputs.cache
 C:\sources\DesafioBackend\DesafioBackend.Domain\obj\Debug\netcoreapp3.1\DesafioBackend.Domain.AssemblyInfoInputs.cache
 C:\sources\DesafioBackend\DesafioBackend.Domain\obj\Debug\netcoreapp3.1\DesafioBackend.Domain.AssemblyInfo.cs
 C:\sources\DesafioBackend\DesafioBackend.Domain\obj\Debug\netcoreapp3.1\DesafioBackend.Domain.dll
 C:\sources\DesafioBackend\DesafioBackend.Domain\obj\Debug\netcoreapp3.1\DesafioBackend.Domain.pdb
 C:\sources\DesafioBackend\DesafioBackend.Domain\obj\Debug\netcoreapp3.1\DesafioBackend.Domain.genruntimeconfig.cache
-C:\sources\DesafioBackend\DesafioBackend.Domain\obj\Debug\netcoreapp3.1\DesafioBackend.Domain.csprojAssemblyReference.cache

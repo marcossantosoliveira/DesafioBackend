@@ -10,7 +10,7 @@ namespace DesafioBackend.Integrations.CotacaoMoedas
 {
     public class CotacaoMoedasClient : ICotacaoMoedasClient
     {
-        public async Task<CotacaoMoedaDto> ObterCotacaoMoedaUSD()
+        public async Task<CotacaoMoedaUSDBRLDto> ObterCotacaoMoedaUSD()
         {
             var request = new HttpRequestMessage(HttpMethod.Get, $"https://economia.awesomeapi.com.br/json/last/USD-BRL");
 
@@ -18,7 +18,7 @@ namespace DesafioBackend.Integrations.CotacaoMoedas
             {
                 var response = await client.SendAsync(request);
                 var contentResp = await response.Content.ReadAsStringAsync();
-                var objResp = JsonConvert.DeserializeObject<CotacaoMoedaDto>(contentResp);
+                var objResp = JsonConvert.DeserializeObject<CotacaoMoedaUSDBRLDto>(contentResp);
 
                 if (response.IsSuccessStatusCode)
                 {
@@ -29,7 +29,7 @@ namespace DesafioBackend.Integrations.CotacaoMoedas
             }
         }
 
-        public async Task<CotacaoMoedaDto> ObterCotacaoMoedaBRL()
+        public async Task<CotacaoMoedaBRLUSDDto> ObterCotacaoMoedaBRL()
         {
             var request = new HttpRequestMessage(HttpMethod.Get, $"https://economia.awesomeapi.com.br/json/last/BRL-USD");
 
@@ -37,7 +37,7 @@ namespace DesafioBackend.Integrations.CotacaoMoedas
             {
                 var response = await client.SendAsync(request);
                 var contentResp = await response.Content.ReadAsStringAsync();
-                var objResp = JsonConvert.DeserializeObject<CotacaoMoedaDto>(contentResp);
+                var objResp = JsonConvert.DeserializeObject<CotacaoMoedaBRLUSDDto>(contentResp);
 
                 if (response.IsSuccessStatusCode)
                 {

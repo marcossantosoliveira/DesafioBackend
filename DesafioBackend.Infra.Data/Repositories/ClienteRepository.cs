@@ -2,6 +2,7 @@
 using DesafioBackend.Domain.Interfaces;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace DesafioBackend.Infra.Data
@@ -27,7 +28,7 @@ namespace DesafioBackend.Infra.Data
 
         public Clientes ObterClientePorEmail(string email)
         {
-            var cliente = _contexto.Clientes.Find(email);
+            var cliente = _contexto.Clientes.FirstOrDefault(f => f.Email == email);
 
             return cliente;
         }
