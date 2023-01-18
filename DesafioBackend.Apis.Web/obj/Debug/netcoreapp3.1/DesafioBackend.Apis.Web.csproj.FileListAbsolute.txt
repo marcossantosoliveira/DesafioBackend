@@ -101,3 +101,8 @@ C:\sources\DesafioBackend\DesafioBackend.Apis.Web\obj\Debug\netcoreapp3.1\static
 C:\sources\DesafioBackend\DesafioBackend.Apis.Web\obj\Debug\netcoreapp3.1\DesafioBackend.Apis.Web.dll
 C:\sources\DesafioBackend\DesafioBackend.Apis.Web\obj\Debug\netcoreapp3.1\DesafioBackend.Apis.Web.pdb
 C:\sources\DesafioBackend\DesafioBackend.Apis.Web\obj\Debug\netcoreapp3.1\DesafioBackend.Apis.Web.genruntimeconfig.cache
+C:\sources\DesafioBackend\DesafioBackend.Apis.Web\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.DesafioBackend - Web Deploy.json
+C:\sources\DesafioBackend\DesafioBackend.Apis.Web\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.json
+C:\sources\DesafioBackend\DesafioBackend.Apis.Web\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\DesafioBackend - Web Deploy\apis1.arm.json
+C:\sources\DesafioBackend\DesafioBackend.Apis.Web\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\DesafioBackend - Web Deploy\profile.arm.json
+C:\sources\DesafioBackend\DesafioBackend.Apis.Web\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\DesafioBackendApisWeb20230114175301 - Web Deploy\profile.arm.json

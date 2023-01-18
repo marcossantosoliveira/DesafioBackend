@@ -23,7 +23,7 @@ namespace DesafioBackend.Apis.Web.Cliente
 
         [HttpPost("cliente")]
         public async Task<ActionResult<Guid>> CriarClienteAsync(
-        [FromBody] ClienteDto cliente
+        [FromBody] ClienteCriarDto cliente
         )
         {            
                  var cli = new ClienteServiceDto()

@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/b8db441a-18a6-4de8-9bb9-a4ddf0561b32/AppServices/subscriptions/b8db441a-18a6-4de8-9bb9-a4ddf0561b32/resourceGroups/DesafioBackend/providers/Microsoft.Web/sites/desafiobackend",
+    "appService.deploySubpath": "DesafioBackend.Apis.Web\\bin\\Release\\netcoreapp3.1\\publish"
+}
